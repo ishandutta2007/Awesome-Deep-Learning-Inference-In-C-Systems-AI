@@ -1,49 +1,52 @@
-# Awesome-Deep-Learning-Inference-In-C-Systems-AI
+# 🚀 Awesome Deep Learning Inference in C & Systems AI
 
-markdown
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Deep Learning Inference in C & Systems AI Banner" width="100%" />
+</p>
 
-## Top Deep Learning Inference in C & Systems AI Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+## ⚡ Top Deep Learning Inference in C & Systems AI Ecosystem
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+> **A Curated Directory of SaaS & Hosted Platforms and Production Open-Source Systems AI Projects**  
+> *Targeted at Zero-Dependency C/C++ LLM Runtimes, Quantized Tensor Engines, High-Throughput CUDA/C++ Kernels, Edge/Embedded Compilers, and Low-Level Systems AI Engineering.*  
+> **Last updated: November 2026**
 
-*Focused on Zero-Dependency C/C++ LLM & Neural Network Runtimes, Quantized Tensor Engines, Edge/Embedded AI Compilers & Low-Level Systems AI*  
+Deep learning inference is rapidly transitioning from heavyweight Python runtimes toward **bare-metal C/C++ systems engineering**. This repository tracks leading **SaaS/hosted platforms** and **open-source GitHub projects** that compile, quantize, schedule, and execute deep learning neural networks and Large Language Models (LLMs) with minimal memory footprint, deterministic allocation, and zero Python overhead.
 
-**Last updated: November 2026**
+Whether you are hacking single-file educational C engines (`llm.c`, `llama2.c`, `kimi-k3-in-c`), benchmarking enterprise C++ inference servers (`llama.cpp`, `vLLM`, `TensorRT-LLM`, `SGLang`), or deploying on microcontrollers and NPUs (`ExecuTorch`, `LiteRT`, `ncnn`, `MNN`, `CMSIS-NN`), this curated ecosystem guide delivers the essential tools and architectural blueprints.
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Deep Learning Inference in C & Systems AI**. These tools compile, quantize, schedule, and execute neural networks and Large Language Models (LLMs) directly in pure C/C++, SIMD/AVX/NEON intrinsics, CUDA/Metal/Vulkan kernels, and embedded microcontrollers with minimal memory footprint and zero Python overhead.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Open-Source Systems & Runtimes (Sorted by Stars)](#top-open-source-systems--runtimes-sorted-by-stars)
+- [🛠️ How to Contribute](#️-how-to-contribute)
+- [💖 Support & Share](#-support--share)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-
-**Examples** include llama.cpp Cloud, GGML Cloud, ONNX Runtime, TensorRT Cloud, OpenVINO Cloud, Apache TVM, ExecuTorch, Apple CoreML Cloud, Qualcomm AI Hub, Arm NN, and FareedKhan-dev/kimi-k3-in-c (the category leaders and popular runtimes). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for pure-C single-file & educational LLM inference (`FareedKhan-dev/kimi-k3-in-c`, `llama2.c`, `llm.c`, `calm`), production C/C++ quantized tensor runtimes (`llama.cpp`, `ggml`, `ncnn`, `MNN`, `darknet`), and compiler/edge inference engines (`ONNX Runtime`, `ExecuTorch`, `Apache TVM`, `OpenVINO`, `Arm NN`) — ideal for systems AI engineers, embedded ML developers, kernel hackers, and performance researchers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global deep learning inference and systems AI market is estimated at **$113B–$132B in 2026** and projected to surpass **$350B–$400B by 2030** (~18–28% CAGR) as production LLM and edge workloads eclipse training compute demand. The sector exhibits a **barbell concentration profile**: the foundational infrastructure and accelerator layer is **highly concentrated** (dominated by NVIDIA and hyper-scale cloud providers), while the edge runtime, model-compiler, and specialized serverless inference ecosystem remains **moderately fragmented** with intense competition among custom ASIC startups and open-source-native runtimes.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS / Hosted Platforms
 
 | Platform | Valuation / Market Cap / Revenue | Pricing (Starting Tier) | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,156 +60,128 @@ The global deep learning inference and systems AI market is estimated at **$113B
 | **[OctoAI / CentML & TVM Cloud Acceleration](https://apache.org)** | ~$400M Valuation (Acquired by NVIDIA) | **$1.00 per 1M tokens / dynamic credit-based pay-as-you-go** ($1/credit) | **14-day free trial** with **$10 in platform credits** upon registration | Cloud ML compiler and kernel auto-tuning services built around Apache TVM to generate hardware-specific C++/CUDA/Metal inference runtimes. |
 | **[Edge Impulse](https://edgeimpulse.com)** | ~$234M Valuation (Acquired by Qualcomm) | **$39.00/seat/month** starting tier (Enterprise custom licensing for >1,000 commercial units) | **Developer Plan (Free forever)**: **3 private projects**, unlimited public projects, **3 collaborators/project**, and **60 min/job compute time** with 16 GB RAM | Cloud embedded ML platform compiling sensor, audio, and vision models into zero-dependency ANSI C++ libraries for microcontrollers and DSPs. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
+Below is a comprehensive list of production, educational, and experimental C/C++ deep learning and systems AI engines. Each project features a real-time star badge (style: `social`, color: `white`) linking directly to the repository's stargazers page, ordered in **descending star count**.
 
+### Top Open-Source Systems & Runtimes (Sorted by Stars)
 
-## Open-Source GitHub Projects
+1. **[llama.cpp](https://github.com/ggml-org/llama.cpp)** [![Stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers)  
+   *Flagship open-source LLM inference engine in pure C/C++ with zero dependencies, supporting GGUF 1.5-bit to 8-bit quantization, AVX/NEON SIMD, CUDA, Metal, Vulkan, and ROCm.*
 
+2. **[vLLM](https://github.com/vllm-project/vllm)** [![Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+   *High-throughput and memory-efficient LLM serving engine featuring PagedAttention, continuous batching, custom C++/CUDA kernels, and speculative decoding.*
 
+3. **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** [![Stars](https://img.shields.io/github/stars/ggml-org/whisper.cpp?style=social&color=white)](https://github.com/ggml-org/whisper.cpp/stargazers)  
+   *High-performance, zero-dependency C/C++ implementation of OpenAI's Whisper speech-to-text model with 16-bit and 4-bit quantization on CPUs and GPUs.*
 
-- **[FareedKhan-dev/kimi-k3-in-c](https://github.com)**  
+4. **[SGLang](https://github.com/sgl-project/sglang)** [![Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
+   *Fast serving framework for large language models and vision-language models with RadixAttention for automatic KV cache reuse and optimized C++/CUDA runtime.*
 
-  Open-source pure-C implementation of Kimi K3 model inference engineered for transparent, dependency-free systems AI execution and low-level architectural clarity.
+5. **[tinygrad](https://github.com/tinygrad/tinygrad)** [![Stars](https://img.shields.io/github/stars/tinygrad/tinygrad?style=social&color=white)](https://github.com/tinygrad/tinygrad/stargazers)  
+   *Minimalist deep learning framework and compiler lowering neural nets into bare-metal C, LLVM, Metal, OpenCL, and CUDA with zero bloat.*
 
+6. **[llm.c](https://github.com/karpathy/llm.c)** [![Stars](https://img.shields.io/github/stars/karpathy/llm.c?style=social&color=white)](https://github.com/karpathy/llm.c/stargazers)  
+   *LLM training and inference in simple, raw, dependency-free C and CUDA by Andrej Karpathy designed for maximum systems-level readability and raw hardware speed.*
 
+7. **[Darknet](https://github.com/pjreddie/darknet)** [![Stars](https://img.shields.io/github/stars/pjreddie/darknet?style=social&color=white)](https://github.com/pjreddie/darknet/stargazers)  
+   *Legendary open-source neural network framework written in pure C and CUDA powering real-time YOLO object detection and computer vision.*
 
-- **[llama.cpp (`ggml-org/llama.cpp`)](https://github.com)**  
+8. **[FlashAttention](https://github.com/Dao-AILab/flash-attention)** [![Stars](https://img.shields.io/github/stars/Dao-AILab/flash-attention?style=social&color=white)](https://github.com/Dao-AILab/flash-attention/stargazers)  
+   *Fast, memory-efficient exact attention C++/CUDA implementation utilizing GPU SRAM tiling to eliminate IO bottlenecks in modern transformer architectures.*
 
-  Flagship open-source LLM inference engine written in pure C/C++ with zero external dependencies, supporting GGUF 1.5-bit to 8-bit quantization, AVX/NEON SIMD, CUDA, Metal, Vulkan, and ROCm.
+9. **[ncnn](https://github.com/Tencent/ncnn)** [![Stars](https://img.shields.io/github/stars/Tencent/ncnn?style=social&color=white)](https://github.com/Tencent/ncnn/stargazers)  
+   *High-performance neural network inference computing framework optimized for mobile platforms, ARM NEON SIMD assembly, and Vulkan GPU acceleration.*
 
+10. **[ONNX Runtime](https://github.com/microsoft/onnxruntime)** [![Stars](https://img.shields.io/badge/stars-22.3k-white?style=social)](https://github.com/microsoft/onnxruntime)  
+    *Cross-platform, high-performance C/C++ scoring and inference engine supporting extensive execution providers including TensorRT, OpenVINO, DirectML, and CoreML.*
 
+11. **[llama2.c](https://github.com/karpathy/llama2.c)** [![Stars](https://img.shields.io/github/stars/karpathy/llama2.c?style=social&color=white)](https://github.com/karpathy/llama2.c/stargazers)  
+    *Single-file (~700 lines) pure-C implementation for running Llama 2/3 architecture inference anywhere—from microcontrollers to multi-core CPUs with OpenMP.*
 
-- **[ggml (`ggml-org/ggml`)](https://github.com)**  
+12. **[MNN](https://github.com/alibaba/MNN)** [![Stars](https://img.shields.io/github/stars/alibaba/MNN?style=social&color=white)](https://github.com/alibaba/MNN/stargazers)  
+    *Blazing-fast, lightweight deep learning inference engine battle-tested in Alibaba mobile apps, supporting multi-backend execution on CPU, GPU, and NPU.*
 
-  Foundational open-source tensor library written in C/C++ powering `llama.cpp` and `whisper.cpp`, optimized for integer quantization and cross-platform CPU/GPU/NPU execution.
+13. **[ggml](https://github.com/ggml-org/ggml)** [![Stars](https://img.shields.io/github/stars/ggml-org/ggml?style=social&color=white)](https://github.com/ggml-org/ggml/stargazers)  
+    *Foundational tensor library written in C/C++ powering `llama.cpp`, optimized for integer quantization (Q4_0, Q4_K, Q8_0) and cross-platform CPU/GPU/NPU execution.*
 
+14. **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** [![Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)  
+    *NVIDIA's specialized C++ inference orchestration runtime providing state-of-the-art FP8/INT4 quantization and in-flight batching on modern NVIDIA GPUs.*
 
+15. **[Apache TVM](https://github.com/apache/tvm)** [![Stars](https://img.shields.io/github/stars/apache/tvm?style=social&color=white)](https://github.com/apache/tvm/stargazers)  
+    *Open-source machine learning compiler framework in C++ that lowers high-level neural graphs directly into bare-metal C, LLVM, CUDA, Metal, and WebGPU.*
 
-- **[llm.c (`karpathy/llm.c`)](https://github.com)**  
+16. **[kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)** [![Stars](https://img.shields.io/github/stars/FareedKhan-dev/kimi-k3-in-c?style=social&color=white)](https://github.com/FareedKhan-dev/kimi-k3-in-c/stargazers)  
+    *Open-source pure-C implementation running inference on a 2.78-trillion-parameter Kimi K3 MoE architecture on a single node without external dependencies.*
 
-  Clean, dependency-free open-source C and CUDA implementation of LLM training and inference by Andrej Karpathy designed for maximum systems-level readability and raw hardware speed.
+17. **[OpenVINO](https://github.com/openvinotoolkit/openvino)** [![Stars](https://img.shields.io/github/stars/openvinotoolkit/openvino?style=social&color=white)](https://github.com/openvinotoolkit/openvino/stargazers)  
+    *Intel's comprehensive open-source C++ toolkit for optimizing, quantizing (`NNCF`), and accelerating deep learning inference across x86/ARM CPUs, GPUs, and NPUs.*
 
+18. **[CUTLASS](https://github.com/NVIDIA/cutlass)** [![Stars](https://img.shields.io/github/stars/NVIDIA/cutlass?style=social&color=white)](https://github.com/NVIDIA/cutlass/stargazers)  
+    *Collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) and deep learning primitives at all levels of GPU hierarchy.*
 
+19. **[ExecuTorch](https://github.com/pytorch/executorch)** [![Stars](https://img.shields.io/github/stars/pytorch/executorch?style=social&color=white)](https://github.com/pytorch/executorch/stargazers)  
+    *Meta's official on-device AI runtime written in C++ for executing PyTorch models natively across mobile devices, embedded systems, and microcontrollers.*
 
-- **[llama2.c (`karpathy/llama2.c`)](https://github.com)**  
+20. **[IREE](https://github.com/iree-org/iree)** [![Stars](https://img.shields.io/github/stars/iree-org/iree?style=social&color=white)](https://github.com/iree-org/iree/stargazers)  
+    *Retargetable MLIR-based machine learning compiler and runtime lowering dynamic neural models to efficient native code for CPUs, GPUs, and custom accelerators.*
 
-  Iconic single-file (~700 lines) pure-C implementation for running Llama 2/3 architecture inference anywhere—from embedded microcontrollers to multi-core CPUs with OpenMP.
+21. **[LiteRT (formerly TF Lite)](https://github.com/google-ai-edge/LiteRT)** [![Stars](https://img.shields.io/github/stars/google-ai-edge/LiteRT?style=social&color=white)](https://github.com/google-ai-edge/LiteRT/stargazers)  
+    *Google's on-device C++ inference runtime successor to TensorFlow Lite, engineered with XNNPACK SIMD acceleration and hardware delegates for edge NPUs.*
 
+22. **[TensorFlow Lite Micro](https://github.com/tensorflow/tflite-micro)** [![Stars](https://img.shields.io/github/stars/tensorflow/tflite-micro?style=social&color=white)](https://github.com/tensorflow/tflite-micro/stargazers)  
+    *Open-source C++ neural network inference runtime engineered specifically for microcontrollers and DSPs with only a few kilobytes of memory.*
 
+23. **[Arm NN](https://github.com/ARM-software/armnn)** [![Stars](https://img.shields.io/github/stars/ARM-software/armnn?style=social&color=white)](https://github.com/ARM-software/armnn/stargazers)  
+    *Official open-source C++ inference engine translating neural network graphs into optimized primitives for Arm Cortex-A CPUs, Mali GPUs, and Ethos NPUs.*
 
-- **[ONNX Runtime (`microsoft/onnxruntime`)](https://github.com)**  
+24. **[calm](https://github.com/zeux/calm)** [![Stars](https://img.shields.io/github/stars/zeux/calm?style=social&color=white)](https://github.com/zeux/calm/stargazers)  
+    *Ultra-fast, self-contained C++ language model inference engine supporting Qwen, Llama, and Mistral models with clean, minimal CUDA/Metal and CPU kernels.*
 
-  Cross-platform open-source C/C++ high-performance inference engine supporting dozens of hardware execution providers (TensorRT, DirectML, OpenVINO, CoreML, QNN, ROCm).
-
-
-
-- **[ExecuTorch (`pytorch/executorch`)](https://github.com)**  
-
-  Official open-source C++ runtime from Meta for executing PyTorch models natively on mobile devices, embedded systems, and microcontrollers with deterministic memory planning.
-
-
-
-- **[OpenVINO (`openvinotoolkit/openvino`)](https://github.com)**  
-
-  Comprehensive open-source C++ toolkit by Intel for optimizing, quantizing (`NNCF`), and accelerating deep learning inference across x86/ARM CPUs, integrated GPUs, and NPUs.
-
-
-
-- **[Apache TVM (`apache/tvm`)](https://github.com)**  
-
-  End-to-end open-source deep learning compiler stack in C++ and Python that lowers high-level neural graphs into bare-metal C, LLVM, CUDA, Metal, and WebGPU code.
-
-
-
-- **[ncnn (`Tencent/ncnn`) & MNN (`alibaba/MNN`)](https://github.com)**  
-
-  Ultra-fast, dependency-free open-source C++ neural network inference frameworks engineered specifically for mobile phones, ARM NEON CPUs, and Vulkan mobile GPUs.
-
-
-
-- **[Arm NN (`ARM-software/armnn`) & CMSIS-NN (`ARM-software/CMSIS-NN`)](https://github.com)**  
-
-  Official open-source C/C++ inference engines and SIMD/MVE neural kernels optimized for Arm Cortex-A CPUs, Cortex-M microcontrollers, Mali GPUs, and Ethos NPUs.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[whisper.cpp (`ggml-org/whisper.cpp`)](https://github.com)** for a high-performance, zero-dependency C/C++ port of OpenAI's Whisper automatic speech recognition model.
-
-- **[calm (`zeux/calm`)](https://github.com)** for a fast, self-contained C++ LLM inference engine supporting Qwen, Llama, and Mistral models with clean CUDA/CPU kernels.
-
-- **[Tinygrad (`tinygrad/tinygrad`)](https://github.com)** and **[IREE (`iree-org/iree`)](https://github.com)** for open-source MLIR-based compilers and minimalist tensor runtimes emitting C/LLVM/Vulkan/CUDA code for edge and datacenter targets.
-
-- **[LiteRT — formerly TensorFlow Lite (`google-ai-edge/LiteRT`)](https://github.com)** for Google's lightweight C++ on-device inference runtime with XNNPACK SIMD acceleration and GPU/NPU delegates.
-
-- **[Darknet (`hank-ai/darknet`)](https://github.com)** for the classic open-source neural network framework written in pure C and CUDA powering real-time YOLO computer vision inference.
-
-
-
-**Frameworks for building custom systems**: Combine **FareedKhan-dev/kimi-k3-in-c** or **llama2.c / llm.c** for learning and hacking pure-C model kernels, **llama.cpp + ggml** for production quantized LLM inference on CPUs/GPUs, and **ExecuTorch** or **ncnn** for zero-overhead mobile and embedded deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Note that `Apple CoreML` is a proprietary OS framework (with open-source conversion tools like `apple/coremltools`), whereas `llama.cpp`, `ggml`, `ONNX Runtime`, `ExecuTorch`, `Apache TVM`, `OpenVINO`, and `Arm NN` are open-source.
-
-- Low-level C/C++ inference engines manage raw memory buffers, `mmap` model weights, and SIMD/GPU pointers directly; always validate model file integrity (SHA-256) and enforce bounds checking when loading untrusted GGUF/ONNX binaries.
-
-
+25. **[CMSIS-NN](https://github.com/ARM-software/CMSIS-NN)** [![Stars](https://img.shields.io/github/stars/ARM-software/CMSIS-NN?style=social&color=white)](https://github.com/ARM-software/CMSIS-NN/stargazers)  
+    *Collection of efficient neural network kernels written in C with Arm Helium (MVE) and SIMD instructions for Cortex-M processors.*
 
 ---
 
+## 🛠️ How to Contribute
 
+Contributions are warmly welcomed! Help keep this systems AI ecosystem directory up to date:
 
-**Made for systems AI engineers, embedded ML developers, C/C++ kernel hackers, and open-source contributors.**  
+1. **Fork the repository** on GitHub.
+2. **Add or edit entries** in `README.md` maintaining table formatting, pricing transparency, and accurate star badges.
+3. Ensure descriptions are concise, technical, and link directly to official repositories or project sites.
+4. **Submit a Pull Request** with a clear explanation of the addition.
 
-Use code with caution.
+---
 
-Let's make deep learning inference in C and systems AI more open, lightweight, and hardware-efficient.
+## 💖 Support & Share
+
+If you find this curated list valuable for your systems AI research, compiler hacking, or low-level engineering work, please consider supporting the project:
+
+- ⭐ **Star this repository** to increase visibility and help developers discover low-level C inference engines.
+- 🍴 **Fork & Share** with your colleagues, lab members, and developer communities on X/Twitter, LinkedIn, and Reddit.
+- ☕ **Support the creator** — You can sponsor or buy a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) with support tiers for profile badges, repository shoutouts, and priority feature requests!
+
+[![Sponsor @ishandutta2007](https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an independent, community-driven curated resource and is not affiliated with or endorsed by any company or foundation listed.
+- Low-level C and C++ inference engines manipulate raw memory pointers, `mmap` tensor files directly, and schedule low-level GPU kernels. Always verify model binary checksums (SHA-256) and exercise memory bounds checking when evaluating third-party weights or GGUF files.
+
+---
+
+<p align="center">
+  <b>Built for Systems AI Engineers, Embedded ML Developers, C/C++ Kernel Hackers, and Open-Source Builders.</b><br/>
+  <sub>Let's make deep learning inference in C and systems AI more open, lightweight, and hardware-efficient.</sub>
+</p>
