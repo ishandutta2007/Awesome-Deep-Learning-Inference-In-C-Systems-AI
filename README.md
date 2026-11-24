@@ -32,73 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global deep learning inference and systems AI market is estimated at **$113B–$132B in 2026** and projected to surpass **$350B–$400B by 2030** (~18–28% CAGR) as production LLM and edge workloads eclipse training compute demand. The sector exhibits a **barbell concentration profile**: the foundational infrastructure and accelerator layer is **highly concentrated** (dominated by NVIDIA and hyper-scale cloud providers), while the edge runtime, model-compiler, and specialized serverless inference ecosystem remains **moderately fragmented** with intense competition among custom ASIC startups and open-source-native runtimes.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Qualcomm AI Hub](https://qualcomm.com)**  
-
-  Cloud model optimization, quantization, and hardware-profiling platform enabling developers to compile and benchmark models directly on hosted Snapdragon mobile, IoT, and automotive devices.
-
-
-
-- **[NVIDIA NIM & TensorRT Cloud](https://nvidia.com)**  
-
-  Managed cloud inference microservices and TensorRT compilation services delivering ultra-low-latency FP8/FP4/INT4 C++ engine optimization on NVIDIA GPUs.
-
-
-
-- **[Intel Tiber Developer Cloud (OpenVINO Cloud)](https://intel.com)**  
-
-  Cloud hardware testing and model-optimization sandbox for benchmarking C++ OpenVINO inference across Intel Xeon CPUs, Arc GPUs, and Core Ultra NPUs.
-
-
-
-- **[Apple Xcode Cloud & CoreML Developer Services](https://apple.com)**  
-
-  Managed build, automated testing, and Neural Engine profiling infrastructure for compiling and benchmarking CoreML models across iOS, macOS, and visionOS devices.
-
-
-
-- **[OctoAI / CentML & Apache TVM Cloud Acceleration](https://apache.org)**  
-
-  Cloud ML compiler and kernel auto-tuning services built around Apache TVM to generate hardware-specific C++/CUDA/Metal inference runtimes.
-
-
-
-- **[Together AI / Fireworks / Groq (Hosted Low-Level C++/Custom-Silicon Runtimes)](https://together.ai)**  
-
-  High-throughput serverless inference clouds running custom C++/CUDA FlashAttention, speculative decoding, and quantized tensor kernels at scale.
-
-
-
-- **[Edge Impulse](https://edgeimpulse.com)**  
-
-  Cloud embedded ML platform compiling sensor, audio, and vision models into zero-dependency ANSI C++ libraries for microcontrollers and DSPs.
-
-
-
-- **[ONNX Runtime Cloud / Azure Machine Learning Managed Endpoints](https://onnxruntime.ai)**  
-
-  Managed cloud deployment and hardware-accelerated execution provider hosting for production ONNX C/C++ inference pipelines.
-
-
-
-- **[llama.cpp & GGML Managed Cloud Workers (RunPod / Modal / Cloudflare Workers AI)](https://runpod.io)**  
-
-  Serverless GPU and CPU cloud platforms offering pre-built GGUF / `llama.cpp` C++ inference containers with instant API scaling.
+| Platform | Valuation / Market Cap / Revenue | Pricing (Starting Tier) | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Apple Xcode Cloud & CoreML Services](https://apple.com)** | ~$3.6T – $3.8T MCap | **$49.99/mo** for 100 compute hours ($99.99/mo for 250 hrs, up to $3,999.99/mo for 10k hrs) | **25 compute hours/month** included permanently with standard $99/year Apple Developer membership | Managed build, automated testing, and Neural Engine profiling infrastructure for compiling and benchmarking CoreML models across iOS, macOS, and visionOS devices. |
+| **[NVIDIA NIM & TensorRT Cloud](https://nvidia.com)** | ~$3.5T – $4.0T MCap | **$1.00/GPU-hour** on cloud marketplaces or **$4,500/GPU/year** via NVIDIA AI Enterprise production license | **90-day free evaluation trial** of NVIDIA AI Enterprise; free testing endpoints on `build.nvidia.com` playground | Managed cloud inference microservices and TensorRT compilation services delivering ultra-low-latency FP8/FP4/INT4 C++ engine optimization on NVIDIA GPUs. |
+| **[ONNX Runtime Cloud / Azure ML Managed Endpoints](https://onnxruntime.ai)** | ~$3.1T – $3.2T MCap (Microsoft) | **$0.096/hour** starting VM compute rate (e.g. `Standard_DS2_v2` CPU node) | **30-day free trial** with **$200 Azure credit** (no always-free dedicated endpoint tier) | Managed cloud deployment and hardware-accelerated execution provider hosting for production ONNX C/C++ inference pipelines. |
+| **[Qualcomm AI Hub](https://qualcomm.com)** | ~$170B – $185B MCap | **$0.00 (Free developer access)**; production edge volume licensing on custom quote | **Free forever plan** with access to hosted device farm (real Snapdragon phones, IoT, and XR devices) for model profiling, quantizing, and compiling | Cloud model optimization, quantization, and hardware-profiling platform enabling developers to compile and benchmark models directly on hosted Snapdragon mobile, IoT, and automotive devices. |
+| **[Intel Tiber Developer Cloud (OpenVINO Cloud)](https://intel.com)** | ~$85B – $90B MCap | **$0.06/hour** starting compute rate for paid instances (Standard paid tier) | **Free forever Standard account** with access to shared Jupyter notebook environments, 4th/5th Gen Xeon & Arc GPUs, pre-configured OpenVINO sandboxes, subject to session idle timeouts | Cloud hardware testing and model-optimization sandbox for benchmarking C++ OpenVINO inference across Intel Xeon CPUs, Arc GPUs, and Core Ultra NPUs. |
+| **[Together AI (Hosted C++/Silicon Runtimes)](https://together.ai)** | ~$8.3B Valuation | **$0.14 per 1M input tokens / $0.28 per 1M output tokens** (serverless starting rate; $15 minimum initial account deposit) | **None (No free tier or trial)**; prepaid platform requiring a **$15 initial deposit** to access serverless endpoints | High-throughput serverless inference cloud running custom C++/CUDA FlashAttention, speculative decoding, and quantized tensor kernels at scale. |
+| **[llama.cpp & GGML Managed Cloud Workers (RunPod)](https://runpod.io)** | ~$1.0B Valuation | **$0.0002/second** (~$0.20/hour for community GPU instances; serverless billed per second) | **No permanent free tier**; promotional sign-up trial credit of **$25 (valid for first-time verified accounts)** | Serverless GPU and CPU cloud platforms offering pre-built GGUF / `llama.cpp` C++ inference containers with instant API scaling. |
+| **[OctoAI / CentML & TVM Cloud Acceleration](https://apache.org)** | ~$400M Valuation (Acquired by NVIDIA) | **$1.00 per 1M tokens / dynamic credit-based pay-as-you-go** ($1/credit) | **14-day free trial** with **$10 in platform credits** upon registration | Cloud ML compiler and kernel auto-tuning services built around Apache TVM to generate hardware-specific C++/CUDA/Metal inference runtimes. |
+| **[Edge Impulse](https://edgeimpulse.com)** | ~$234M Valuation (Acquired by Qualcomm) | **$39.00/seat/month** starting tier (Enterprise custom licensing for >1,000 commercial units) | **Developer Plan (Free forever)**: **3 private projects**, unlimited public projects, **3 collaborators/project**, and **60 min/job compute time** with 16 GB RAM | Cloud embedded ML platform compiling sensor, audio, and vision models into zero-dependency ANSI C++ libraries for microcontrollers and DSPs. |
 
 
 
