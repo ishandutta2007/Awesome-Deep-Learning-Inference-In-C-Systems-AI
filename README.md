@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Inference-In-C-Systems-AI/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -64,7 +64,7 @@ The global deep learning inference and systems AI market is estimated at **$113B
 
 ## 💻 Open-Source GitHub Projects
 
-Below is a comprehensive list of production, educational, and experimental C/C++ deep learning and systems AI engines. Each project features a real-time star badge (style: `social`, color: `white`) linking directly to the repository's stargazers page, ordered in **descending star count**.
+Below is a comprehensive list of production, educational, and experimental C/C++ deep learning and systems AI engines. Each project features a real-time Stars_Badge (style: `social`, color: `white`) linking directly to the repository's stargazers page, ordered in **descending Stars_Count**.
 
 ### Top Open-Source Systems & Runtimes (Sorted by Stars)
 
@@ -150,7 +150,7 @@ Below is a comprehensive list of production, educational, and experimental C/C++
 Contributions are warmly welcomed! Help keep this systems AI ecosystem directory up to date:
 
 1. **Fork the repository** on GitHub.
-2. **Add or edit entries** in `README.md` maintaining table formatting, pricing transparency, and accurate star badges.
+2. **Add or edit entries** in `README.md` maintaining table formatting, pricing transparency, and accurate Stars_Badges.
 3. Ensure descriptions are concise, technical, and link directly to official repositories or project sites.
 4. **Submit a Pull Request** with a clear explanation of the addition.
 
